@@ -23,42 +23,6 @@ If the GNS3 isn't behaving well, you can close it and just boot it again.
 
 
 ## script on network automation container
-``
-import getpass  
-import telnetlib   
-   
-      
-HOST = "192.168.122.202"    
-     
-    
-user = input("Enter your telnet username: ")    
-password = getpass.getpass()    
-     
-tn = telnetlib.Telnet(HOST)      
-    
-tn.read_until(b"Username: ")    
-tn.write(user.encode('ascii') + b"\n")    
-
-if password:    
-    tn.read_until(b"Password: ")     
-    tn.write(password.encode('ascii') + b"\n")    
-   
-     
-tn.write(b"enable\n")     
-tn.write(b"joie\n")    
-tn.write(b"conf t\n")    
-tn.write(b"vlan 2\n")    
-tn.write(b"name python_vlan2\n")     
-tn.write(b"vlan 3\n")    
-tn.write(b"name vlan3py\n")    
-tn.write(b"end\n")   
-tn.write(b"copy run start\n")   
-tn.write(b"\n")   
-tn.write(b"exit\n")   
-    
-print(tn.read_all().decode('ascii'))       
-
-``
 ## Configuration on Network Automation Container
 
 Uncomment the two lines under dhcp config for eth0
