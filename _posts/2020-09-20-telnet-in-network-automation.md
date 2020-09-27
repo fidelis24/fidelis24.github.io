@@ -24,18 +24,17 @@ If the GNS3 isn't behaving well, you can close it and just boot it again.
 
 ## script on network automation container
 ```
+import getpass  
+import telnetlib  
+  
+HOST = "192.168.122.202"  
 
-import getpass
-import telnetlib
-
-HOST = "192.168.122.202"
-
-user = input("Enter your telnet username: ")
-
-password = getpass.getpass()
-
-tn = telnetlib.Telnet(HOST)
-
+user = input("Enter your telnet username: ")  
+  
+password = getpass.getpass()  
+  
+tn = telnetlib.Telnet(HOST)  
+  
 tn.read_until(b"Username: ")
 tn.write(user.encode('ascii') + b"\n")
 if password:
