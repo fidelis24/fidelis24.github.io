@@ -24,7 +24,8 @@ If the GNS3 isn't behaving well, you can close it and just boot it again.
 
 ## script on network automation container
  	
-~~~import getpass  
+~~~
+import getpass  
 import telnetlib  
 
 HOST = '192.168.122.202'
@@ -72,7 +73,6 @@ ip add 192.168.122.202 255.255.255.0
 
 
 username april password cisco
-
 
 enable password joie
 
