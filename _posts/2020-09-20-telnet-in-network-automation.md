@@ -23,6 +23,12 @@ If the GNS3 isn't behaving well, you can close it and just boot it again.
 
 
 ## script on network automation container
+import getpass  
+import telnetlib  
+  
+Practice 
+
+
 ## Configuration on Network Automation Container
 
 Uncomment the two lines under dhcp config for eth0
