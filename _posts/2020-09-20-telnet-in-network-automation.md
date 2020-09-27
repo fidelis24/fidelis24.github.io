@@ -23,7 +23,8 @@ If the GNS3 isn't behaving well, you can close it and just boot it again.
 
 
 ## script on network automation container
-`
+```
+
 import getpass
 import telnetlib
 
@@ -56,7 +57,7 @@ tn.write(b"exit\n")
     
     
 print(tn.read_all().decode('ascii'))    
-  ` 
+```
 ## Configuration on Network Automation Container
 
 Uncomment the two lines under dhcp config for eth0
@@ -65,14 +66,14 @@ Type 'ifconfig' and see the ip address received.
 Mine is 192.168.122.101.
 
 ## Configuration on switch CiscoIosvl2
-`
+```
 int vlan 1
 ip add 192.168.122.202 255.255.255.0
 
 username april password cisco
 
 enable password joie
-`
+```
 
 Make sure the ip address you typed in your vlan 1 is within the network range and subnet of the network automation container have received. 
 
