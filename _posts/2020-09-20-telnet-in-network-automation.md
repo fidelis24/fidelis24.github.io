@@ -28,7 +28,9 @@ import getpass
 import telnetlib
 
 HOST = "192.168.122.202"
+
 user = input("Enter your telnet username: ")
+
 password = getpass.getpass()
 
 tn = telnetlib.Telnet(HOST)
@@ -41,19 +43,19 @@ if password:
 
 tn.write(b"enable\n")
 
-tn.write(b"joie\n")
-tn.write(b"conf t\n")
-tn.write(b"vlan 2\n")
-tn.write(b"name python_vlan2\n")
-tn.write(b"vlan 3\n")
-tn.write(b"name vlan3py\n")
-tn.write(b"end\n")
-tn.write(b"copy run start\n")
-tn.write(b"\n")
-tn.write(b"exit\n")
-
-
-print(tn.read_all().decode('ascii'))
+tn.write(b"joie\n") 
+tn.write(b"conf t\n")   
+tn.write(b"vlan 2\n")   
+tn.write(b"name python_vlan2\n")    
+tn.write(b"vlan 3\n")   
+tn.write(b"name vlan3py\n") 
+tn.write(b"end\n")  
+tn.write(b"copy run start\n")   
+tn.write(b"\n") 
+tn.write(b"exit\n") 
+    
+    
+print(tn.read_all().decode('ascii'))    
   ` 
 ## Configuration on Network Automation Container
 
