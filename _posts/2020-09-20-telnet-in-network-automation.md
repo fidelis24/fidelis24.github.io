@@ -3,6 +3,7 @@ layout: post
 title: I just did Telnet..in Network Automation
 ---
 ![GitHub Logo](/images/logo.png)
+![_config.yml]({{ site.baseurl }}/config.yml) 
 
 In this blog, I used David Bombal's materials on network automation. Most tutorials are quite short, some are a little bit long. Watching it and doing it myself is really different. I had to troubleshoot some things myself. With the help of people on twitter and people on GNS3 Community, I made it. Though this is just a small step to my journey in network automation but this gave me the AHA! moment. 
 
@@ -67,7 +68,7 @@ Type 'ifconfig' and see the ip address received.
 Mine is 192.168.122.101.
 
 ## Configuration on switch CiscoIosvl2
-```bash
+~~~bash
 int vlan 1
 
 ip add 192.168.122.202 255.255.255.0
@@ -77,7 +78,8 @@ username april password cisco
 
 enable password joie
 
-```
+~~~
+
 
 Make sure the ip address you typed in your vlan 1 is within the network range and subnet of the network automation container have received. 
 
