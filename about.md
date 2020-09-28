@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<bold>AJ Networking</bold> is techblog of April Joie Enaño. She has variety of interests ranging from
+<b>AJ Networking</b> is techblog of April Joie Enaño. She has variety of interests ranging from
 technical to nontechnical stuffs.
 - [x] Network Automation
 - [x] Lately has taken interest in open-source community
