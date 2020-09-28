@@ -4,7 +4,7 @@ title: 'I just did Telnet..in Network Automation'
 ---
 
 
-<img src = 'https://github.com/fidelis24/img/blob/master/092020-1.png'>
+<img src = 'https://raw.githubusercontent.com/fidelis24/img/master/092020-1.png'>
 
 
 In this blog, I used David Bombal's materials on network automation. Most tutorials are quite short, some are a little bit long. Watching it and doing it myself is really different. I had to troubleshoot some things myself. With the help of people on twitter and people on GNS3 Community, I made it. Though this is just a small step to my journey in network automation but this gave me the AHA! moment. 
