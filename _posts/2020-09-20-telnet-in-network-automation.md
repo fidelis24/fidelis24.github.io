@@ -67,7 +67,7 @@ Type 'ifconfig' and see the ip address received.
 Mine is 192.168.122.101.
 
 ## Configuration on switch CiscoIosvl2
-```
+```bash
 int vlan 1
 
 ip add 192.168.122.202 255.255.255.0
