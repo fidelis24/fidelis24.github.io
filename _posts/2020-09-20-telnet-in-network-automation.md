@@ -3,6 +3,9 @@ layout: post
 title: I just did Telnet..in Network Automation
 ---
 
+this is bruno
+
+ ![](/images/45304128_2156118934641286_6015405489674780672_o.jpg) 
 
 In this blog, I used David Bombal's materials on network automation. Most tutorials are quite short, some are a little bit long. Watching it and doing it myself is really different. I had to troubleshoot some things myself. With the help of people on twitter and people on GNS3 Community, I made it. Though this is just a small step to my journey in network automation but this gave me the AHA! moment. 
 
