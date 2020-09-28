@@ -16,7 +16,7 @@ To get the network automation container, go to [GNS3 marketplace](https://gns3.c
 Disabling then enabling the network adapters of VMware resolves some of the issues in using the GNS3. This is the thing you should do before you boot the GNS3 if and only if you have just restarted your machine, which in my case I just did. I said should because I came across in a comment section on GNS3 community site and someone had a problem in using GNS3 which solved his problem after the disable and enable things. One of the issues I have solved with disabling and enabling the VM network adapter is that one says -- Cannot connect to compute 'GNS3 VM (GNS3 VM)' with request POST/projects.
 
 
-![](/img/2020-09-20-2.png?raw=true)
+![Network Adapter](https://raw.githubusercontent.com/fidelis24/img/master/2020-09-20-2.png)
 
 It says cannot load the GNS3 settings which is fine and normal since I once disabled the VMware network adapters. At this point, we wait for the GNS3 VM be checked automatically or we can just check it ourselves in Edit > Preferences then on left panel, click on GNS3 VM. On GNS3 preferences, we just check the box to enable the GNS3 VM.
 
