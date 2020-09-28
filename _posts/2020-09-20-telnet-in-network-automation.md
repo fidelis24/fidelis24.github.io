@@ -21,7 +21,12 @@ Disabling then enabling the network adapters of VMware resolves some of the issu
 It says cannot load the GNS3 settings which is fine and normal since I once disabled the VMware network adapters. At this point, we wait for the GNS3 VM be checked automatically or we can just check it ourselves in Edit > Preferences then on left panel, click on GNS3 VM. On GNS3 preferences, we just check the box to enable the GNS3 VM.
 
 
-And for another prompt that says 'Timeout after 5 seconds for request http://admin@localhost:3080/v2/version. Please check the connection is not blocked by a firewall or an anti-virus.', make sure to deactivate any of antivirus installed on your PC.
+And for another prompt that says 
+
+> Timeout after 5 seconds for request <span>http://admin@localhost:3080/v2/version</span>.
+> Please check the connection is not blocked by a firewall or an anti-virus.
+
+Make sure to deactivate any of antivirus installed on your PC.
 If the GNS3 isn't behaving well, you can close it and just boot it again.
 
 
