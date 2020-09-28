@@ -5,11 +5,10 @@ title: 'I just did Telnet..in Network Automation'
 
 ![](/images/45304128_2156118934641286_6015405489674780672_o.jpg) 
 
-this is bruno
+![Simple_topology](/images/092020-1.png)
 
 In this blog, I used David Bombal's materials on network automation. Most tutorials are quite short, some are a little bit long. Watching it and doing it myself is really different. I had to troubleshoot some things myself. With the help of people on twitter and people on GNS3 Community, I made it. Though this is just a small step to my journey in network automation but this gave me the AHA! moment. 
 
-![Simple_topology](/images/092020-1.png)
 
 To get the network automation container, go to [GNS3 marketplace](https://gns3.com/marketplace/appliances) and download it from there. You import it and install the appliance on the GNS3 VM. Just click next then once the network automation is available, you just drag it on the workspace, connect it to the switch like the picture shown. Once the network automation container is up, you open its console and it will automatically download certain libraries.
 
