@@ -10,8 +10,8 @@ technical to nontechnical stuffs.
 - [x] open-source community
 - [x] Windows and Linux user
 - [x] Keeping Mother Earth clean and green
-- [x] Healthy Lifestyle and a sip of :coffee:
+- [x] Healthy Lifestyle and a sip of coffee
 
 ### Author's Portfolio
 
-([April's Portfolio](https://fidelis24.github.io/apriljoieaenano.github.io/)
+[April's Portfolio](https://fidelis24.github.io/apriljoieaenano.github.io/)
