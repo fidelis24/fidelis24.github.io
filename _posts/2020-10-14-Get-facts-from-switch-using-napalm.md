@@ -38,12 +38,12 @@ pip install napalm
 
 In order to run the python script well, the switch must have the following configuration:
 
-ip domain-name april.net
-crypto key generate rsa
-1024
+ip domain-name april.net  
+crypto key generate rsa  
+1024  
 
-username april privilege 15 password 0 cisco
-enable joie
+username april privilege 15 password 0 cisco  
+enable joie  
 
  "By default, typing enable takes you to level 15, privileged EXEC mode. In the Cisco IOS, this level is equivalent to having root privileges in UNIX or administrator privileges in Windows. In other words, you have full access to the router." -- **techrepublic.com**
  
