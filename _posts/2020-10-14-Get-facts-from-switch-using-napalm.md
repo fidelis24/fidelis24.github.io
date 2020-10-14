@@ -27,14 +27,18 @@ pip install napalm
 
 **from napalm import get_network_driver**  
 
-**driver = get_network_driver('ios')**  
+
+**driver = get_network_driver('ios')**    
+
 
 **iosvl2 = driver('192.168.122.202', 'april', 'cisco')**  
+
 
 **iosvl2.open()**  
 
 
 **ios_output = iosvl2.get_facts()**  
+
 
 **print (ios_output)**  
 
@@ -61,9 +65,9 @@ enable joie
 ## Troubleshoot Switch
 It's a good thing to intentionally make an error to your configuration so you can have better understanding of every single commands you implement in switch or router. Here, I just showed what would happen if we remove the privilege 15 in the switch configuration. 
 
-![with no priv conf](https://raw.githubusercontent.com/fidelis24/img/master/2020-10-14-withnopriv)
+![with no priv conf](https://raw.githubusercontent.com/fidelis24/img/master/2020-10-14-withnopriv.png)
 
-![with no priv conf results](https://raw.githubusercontent.com/fidelis24/img/master/2020-10-14-withnoprivresult)
+![with no priv conf results](https://raw.githubusercontent.com/fidelis24/img/master/2020-10-14-withnoprivresult.png)
 
 Just implement again the following command below to make the python script behave well as we run it.
 
