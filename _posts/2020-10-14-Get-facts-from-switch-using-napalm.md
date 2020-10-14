@@ -25,13 +25,19 @@ pip install napalm
 ## Python Script to Retrieve Data from the Switch
 
 
-**from napalm import get_network_driver**
-**driver = get_network_driver('ios')**
-**iosvl2 = driver('192.168.122.202', 'april', 'cisco')**
-**iosvl2.open()**
+**from napalm import get_network_driver**  
 
-**ios_output = iosvl2.get_facts()**
-**print (ios_output)**
+**driver = get_network_driver('ios')**  
+
+**iosvl2 = driver('192.168.122.202', 'april', 'cisco')**  
+
+**iosvl2.open()**  
+
+
+**ios_output = iosvl2.get_facts()**  
+
+**print (ios_output)**  
+
 
 
 
