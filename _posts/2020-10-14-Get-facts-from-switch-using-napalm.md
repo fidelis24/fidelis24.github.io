@@ -12,13 +12,13 @@ To retrieve facts from a device, in this activity I used NAPALM. NAPALM (Network
 
 ## Installing NAPALM to ubuntu docker or Network Automation docker
 
-apt-get update, to update all references
-apt-get install python -y
-apt-get install build-essential libssl-dev libffi-dev -y
-apt-get install python-pip -y
-pip install cryptography
-pip install netmiko
-pip install napalm
+apt-get update, to update all references  
+apt-get install python -y  
+apt-get install build-essential libssl-dev libffi-dev -y  
+apt-get install python-pip -y  
+pip install cryptography  
+pip install netmiko  
+pip install napalm  
 
 
 
