@@ -23,6 +23,7 @@ into RIP.
   
 ### OSPF Router  
 ![!ospf-router](https://raw.githubusercontent.com/fidelis24/img/master/ospf-router.png)  
+  
 As seen on the figure above, the OSPF router have just learned the other routes. The OSPF router have now added   10.0.0.0/8 and 192.168.100.0/24 networks into its routing method.  
 
 The command **redistribute rip metric 1** introduces the OSPF routes into the RIP method.  
