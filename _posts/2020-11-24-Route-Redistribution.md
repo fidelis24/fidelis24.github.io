@@ -31,12 +31,12 @@ The command **redistribute rip metric 1** introduces the OSPF routes into the RI
       
 ### RIP Router  
 ![rip-router](https://raw.githubusercontent.com/fidelis24/img/master/rip-router.png)  
-Based on the figure above, besides the networks 192.168.100.0/24 and 10.0.0.0/8, the other networks have just been  
-added through the RIP routing method.  
+Based on the figure above, besides the networks 192.168.100.0/24 and 10.0.0.0/8, the  
+other networks have just been added through the RIP routing method.  
      
 The command **redistribute ospf 1 metric 1** introduces the RIP routes into the OSPF method.  
 
-## Configuration on the devices
+## Configuration on the devices  
 
 Take a closer look of the topology by clicking the link below:
 
