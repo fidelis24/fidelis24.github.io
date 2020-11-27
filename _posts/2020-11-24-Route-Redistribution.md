@@ -40,7 +40,7 @@ The command **redistribute ospf 1 metric 1** introduces the RIP routes into the 
 
 Take a closer look of the topology by clicking the link below:
 
-([Route-Redistribution-ospf-and-rip](https://github.com/fidelis24/Route-redistribution-ospf-and-rip/raw/master/Route-redistribution.pkt))  
+[pkt here](https://github.com/fidelis24/Route-redistribution-ospf-and-rip/raw/master/Route-redistribution.pkt)
 
   
   
