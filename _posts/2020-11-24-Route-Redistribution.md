@@ -41,8 +41,7 @@ The command **redistribute ospf 1 metric 1** introduces the RIP routes into the 
 Take a closer look of the topology by clicking the link below:
 
 ([pkt here](https://github.com/fidelis24/route-redistribution-ospf-and-rip/raw/main/Route-redistribution-ospf-and-rip.pkt))  
- ([pkt Here](https://github.com/fidelis24/port-security_to_protect_the_network_within/raw/master/Port-security_to_Protect_the_network_within.pkt))
-
+ 
 
 
 
