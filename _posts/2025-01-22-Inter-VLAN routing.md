@@ -6,7 +6,7 @@ title: 'Inter-VLAN Routing'
 ![Inter-Vlan Routing](https://raw.githubusercontent.com/fidelis24/img/master/2025-01-22-InterVlan.png)
 
 
-**Inter-VLAN Routing**   
+**Inter-VLAN Routing**   means routing the traffic between VLANS. It makes different VLANs to communicate with each other improving the security and organization of a network.
   
 
 ## Training the device to learn two routhing methods  
