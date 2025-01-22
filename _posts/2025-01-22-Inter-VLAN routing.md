@@ -18,7 +18,7 @@ Regardless of difference on network, the PC0 which has an IP address of 192.168.
 
 ## Removing the VLAN 25 from Switch 2  
   
-### OSPF Router  
+ 
 ![!novlan25](https://raw.githubusercontent.com/fidelis24/img/master/novlan25.png)  
   
 As seen on the figure above, after implementing the "no vlan 25" on global configuration mode, the PC0 cannot reach the PC2 anymore. However, the PC0 can still reach the PC1 which is on the same VLAN as PC0.
