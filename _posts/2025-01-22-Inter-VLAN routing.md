@@ -11,7 +11,7 @@ title: 'Inter-VLAN Routing'
 
 ## Training the device to learn two routhing methods  
   
-![rip-ospf-router](https://raw.githubusercontent.com/fidelis24/img/master/rip-ospf-router.png)  
+![ping](https://raw.githubusercontent.com/fidelis24/img/master/pingfrompc0-topc2.png)  
 
 We need to implement the following syntax on the router to train the following routes to learn another  
 routing method. On RIP, we redistribute the RIP routes into OSPF. On OSPF, we redistribute the OSPF route      
